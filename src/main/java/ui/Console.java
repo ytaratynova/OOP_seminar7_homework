@@ -66,7 +66,7 @@ public class Console implements View{
         Integer indexNote = scanner.nextInt();
         if (validator.checkInput(indexNote, presenter.getNotebookSize())) {
             presenter.removeNote(indexNote - 1);
-            System.out.println("запись была удалена!");
+            System.out.println("Запись была удалена!");
         }
         else {System.out.println("Записи под таким номером не существет");}
         System.out.println();
@@ -100,7 +100,7 @@ public class Console implements View{
             presenter.changeNote(indexNote - 1, changes);
             System.out.println("Запись была изменена");
         } else
-        {System.out.println("Записи под таким номером не существет");}
+        {System.out.println("Записи под таким номером не существует");}
         System.out.println();
 }
 

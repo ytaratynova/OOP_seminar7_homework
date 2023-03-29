@@ -13,12 +13,8 @@ public class Notebook{
         this.notebook.add(note);
     }
 
-//    public void removeNote(Integer index) {
-//        // команда .remove(index) отказывалась работать поэтому "костыль"
-//        notebook.remove(notebook.get(index));
-//    }
+
     public void removeNote(int index) {
-        // команда .remove(index) отказывалась работать поэтому "костыль"
         notebook.remove(index);
     }
 

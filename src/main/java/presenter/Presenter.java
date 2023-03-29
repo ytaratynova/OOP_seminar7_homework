@@ -34,7 +34,6 @@ public class Presenter {
 
     public ArrayList<String> getNote(Integer index){
         Note note = notebook.getNote(index);
-        notebook.getNote(index);
         ArrayList<String> noteParse = new ArrayList<>();
         noteParse.set(0, note.getNote() );
         noteParse.set(1, note.getComment());
